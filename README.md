@@ -1,5 +1,6 @@
 # Drips Sneaker Store
-![Drips ScreenShot](https://github.com/shane-abh/android-sneakers-ecommerce-app/assets/65544944/6b500eb2-1f19-4590-b436-e40887d71f87)
+
+![Drips ScreenShot](https://github.com/shane-abh/android-sneakers-ecommerce-app/assets/65544944/316ddb11-9d39-4a2c-8a65-86caf2a0a04a)
 
 ## Overview
 
