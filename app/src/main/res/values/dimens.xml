@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">30sp</dimen>
+    <dimen name="description_vertical_margin">10sp</dimen>
+    <dimen name="checkOutHeading">18sp</dimen>
+    <dimen name="CheckOutPage_EditText">14sp</dimen>
+    <dimen name="landscape_margin_radio_btn">30sp</dimen>
+</resources>

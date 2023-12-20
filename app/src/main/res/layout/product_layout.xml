@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_margin="10sp"
+    app:cardCornerRadius="20sp"
+    app:cardMaxElevation="30dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20sp"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/nike"
+            />
+        <TextView
+            android:id="@+id/productHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nike Air"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/productTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Men's Shoes"
+            android:textSize="14sp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+            <TextView
+                android:id="@+id/productPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$100"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#DE2830"
+                android:layout_marginTop="10sp"
+                android:layout_alignParentLeft="true"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/addToCart"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:hint="Add"-->
+<!--                android:drawableStart="@drawable/baseline_add_24"-->
+<!--                android:textColor="#DE2830"-->
+<!--                android:textColorHint="@color/white"-->
+<!--                android:backgroundTint="#DE2830"/>-->
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

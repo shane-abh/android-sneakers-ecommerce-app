@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00DE2830">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drips"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:id="@+id/cartToolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/outline_shopping_cart_48"
+                android:layout_marginRight="20sp"/>
+
+            <TextView
+                android:id="@+id/cartSize"
+                android:layout_width="12sp"
+                android:layout_height="12sp"
+                android:layout_alignTop="@+id/cartToolbar"
+                android:background="@drawable/cart_view"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/cartToolbar"
+                android:text="0"
+                android:textSize="8sp"
+                android:textStyle="bold"
+
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>
