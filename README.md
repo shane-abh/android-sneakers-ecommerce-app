@@ -1,1 +1,1 @@
-# Drips Smeaker Store
+# Drips Sneaker Store
