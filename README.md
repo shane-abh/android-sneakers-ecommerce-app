@@ -1,1 +1,3 @@
-# android-sneakers-ecommerce-app
+# Drips Sneakers Store
+
+The code is in the master branch.
