@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application is made in java using Android Studio. The main purpose of this app was to build an e-commerce store to learn each component of android such as recycler view, singleton class, how to pass data between activities, how fragments work and so on.
+This application is made in java using Android Studio. The main purpose of this app was to build an e-commerce store to learn each android component such as recycler view, singleton class, how to pass data between activities, how fragments work and so on.
 
 ## Main Features
 
@@ -18,3 +18,6 @@ This application is made in java using Android Studio. The main purpose of this 
    * Implemented a text watcher feature to intelligently detect the type of credit card based on the first digit of the card number. This enhances the payment process by automatically identifying the card type.
 
 ## App Screenshots
+![Drips ScreenShot](https://github.com/shane-abh/android-sneakers-ecommerce-app/assets/65544944/d5cb7de5-bad6-4987-9ecb-140f56c4e926)
+
+
