@@ -1,4 +1,5 @@
 # Drips Sneaker Store
+![Drips ScreenShot](https://github.com/shane-abh/android-sneakers-ecommerce-app/assets/65544944/6b500eb2-1f19-4590-b436-e40887d71f87)
 
 ## Overview
 
@@ -17,7 +18,6 @@ This application is made in java using Android Studio. The main purpose of this 
 5. **Credit Card Recognition**
    * Implemented a text watcher feature to intelligently detect the type of credit card based on the first digit of the card number. This enhances the payment process by automatically identifying the card type.
 
-## App Screenshots
-![Drips ScreenShot](https://github.com/shane-abh/android-sneakers-ecommerce-app/assets/65544944/d5cb7de5-bad6-4987-9ecb-140f56c4e926)
+
 
 
